@@ -1,0 +1,26 @@
+.mini {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+}
+
+.mini:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.larger {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: none;
+  height: 43.5px;
+  width: 43.5px;
+}
+
+.larger:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

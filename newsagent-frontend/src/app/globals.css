@@ -1,0 +1,66 @@
+:root {
+  --background-color: #faf9f5;
+  --text-color: rgb(0, 0, 0);
+  --skeleton-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-domine);
+}
+
+a,
+p,
+input {
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 800px;
+  gap: 32px;
+  max-width: 100vw;
+}
+
+.topPadding {
+  padding-top: 64px;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}

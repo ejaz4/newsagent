@@ -1,0 +1,23 @@
+.authBox {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.invisibleForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input {
+  display: flex;
+  padding: 8px;
+}
+
+.button {
+  display: flex;
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+.skeleton {
+  background-color: var(--skeleton-color);
+}
+
+.rainbow {
+  background: linear-gradient(
+    90deg,
+    #ff0000,
+    #ff1493,
+    #ff8c00,
+    #00ff00,
+    #00bfff,
+    #0000ff,
+    #8a2be2,
+    #ff0000
+  );
+  background-size: 1800% 1800%;
+  border-radius: 50px;
+  opacity: 0.2;
+  animation: rainbow 10s linear infinite, stretch 0.3s linear forwards;
+  /* cubic-bezier(0.05, 0.41, 0.42, 0.96) */
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

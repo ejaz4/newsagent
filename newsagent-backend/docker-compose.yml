@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: newsagent
+      POSTGRES_USER: newsagent
+      POSTGRES_PASSWORD: newsagent
+    ports:
+      - "5432:5432"
+    networks:
+      internal:
+
+networks:
+  internal:
