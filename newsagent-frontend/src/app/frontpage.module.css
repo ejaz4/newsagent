@@ -1,0 +1,22 @@
+.mainContent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 800px;
+    gap: 32px;
+    max-width: 100vw;
+
+    animation: slideUp 0.5s cubic-bezier(0,.66,.31,.94);
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
